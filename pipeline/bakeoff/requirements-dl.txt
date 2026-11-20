@@ -1,0 +1,6 @@
+# GPU side of the bake-off (venv_dl). Versions tested on 5 Nov 2026.
+# PyTorch itself is installed first from the CUDA index (bakeoff/setup_dl_env.sh).
+nnunetv2==2.8.1
+segmentation-models-pytorch==0.6.0
+timm==1.0.22
+opencv-python-headless==5.0.0.93

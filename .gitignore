@@ -10,6 +10,12 @@
 01_Docs/Fable_Review*.md
 01_Docs/Reports_and_Guides/Review of Research Papers.pdf
 
+# Pipeline data, outputs, trained models and environments (large; generated locally)
+pipeline/data/
+pipeline/results/
+pipeline/logs/
+venv_dl/
+
 # Office lock/temp files
 ~$*
 *.tmp

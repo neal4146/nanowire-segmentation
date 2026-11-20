@@ -1,0 +1,10 @@
+# Photos kept OUT of all bake-off training, so they can be the test set.
+# Label quarters of them with Materials_ThangPham/03_Code/labelling/label_wires.py
+#   --photo <name> --quarter tl|tr|bl|br
+# Only change this list BEFORE running bakeoff/pseudo_labels.py; a photo added
+# later may already be in the training data (score_bakeoff.py flags that).
+# All four are 50,000x photos (5.4 nm/px), one or two per growth run.
+SF251213M_50000x_37    # 60 min: the first photo to label
+SF251213M_50000x_15    # 60 min: dense, close parallel wires, bright rods
+SF251211M_50000x_60    # 30 min: many short wires and bright particles
+SF251211N_50000x_22    # 15 min: sparse, long wires, uneven background

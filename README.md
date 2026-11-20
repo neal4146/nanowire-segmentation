@@ -80,10 +80,14 @@ That is the signature of growth locked to the sapphire crystal lattice. Between 
 | `01_Docs/` | Project record, segmentation review and roadmap, ridge-filtering handover guide |
 | `03_Code/labelling/` | Napari labelling tool (`label_wires.py`), label checker, training-photo correction tool, all hand labels and the frozen test labels |
 | `03_Code/starter_code/` | Early baselines (ridge filter, Hough), label conversion, metrics and an oriented-bounding-box dataset export |
+| `pipeline/measure/` | The lab measurement tool: point it at a folder of SEM photos and get a spreadsheet of every wire and every photo |
+| `pipeline/bakeoff/` | U-Net training, thin masks, LSD extraction, the learned verifier, dev cross-validation and the one-shot test scorers |
+| `pipeline/compare/` | The earlier comparison of classical methods (Steger lines, line fitting, widths, bootstrap) |
+| `pipeline/scripts/ridge/` | The original ridge-filter and random-forest masks plus skeleton-based wire extraction |
 | `assets/` | README figures and the script that makes them |
 
-Raw SEM images (about 2.4 GB) are not included. The U-Net training, bake-off scoring and measurement tool live in a separate working folder that is not part of this repository.
+Not included: raw SEM images (about 2.4 GB), generated results and the trained U-Net weights (about 290 MB). To measure your own photos, see [`pipeline/measure/README.md`](pipeline/measure/README.md).
 
 ## Acknowledgements
 
-The classical baseline and the original wire-extraction code come from the lab's earlier ridge-filtering project. SEM images were taken by the lab.
+The classical baseline and the original wire-extraction code in `pipeline/scripts/ridge/` come from Nikhil's [Ridge-Filtering-Nanowires](https://github.com/nkhl07/Ridge-Filtering-Nanowires). SEM images were taken by the lab.
