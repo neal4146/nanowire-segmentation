@@ -86,7 +86,7 @@ That is the signature of growth locked to the sapphire crystal lattice. Between 
 | `pipeline/scripts/ridge/` | The original ridge-filter and random-forest masks plus skeleton-based wire extraction |
 | `assets/` | README figures and the script that makes them |
 
-Not included: raw SEM images (about 2.4 GB), generated results and the trained U-Net weights (about 290 MB). To measure your own photos, see [`pipeline/measure/README.md`](pipeline/measure/README.md).
+Not included: raw SEM images (about 2.4 GB) and generated results. The trained U-Net and verifier are attached to the [models-v1 release](https://github.com/neal4146/nanowire-segmentation/releases/tag/models-v1). The release notes say where to put each file. To measure your own photos, see [`pipeline/measure/README.md`](pipeline/measure/README.md).
 
 ## Acknowledgements
 

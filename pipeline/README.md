@@ -5,8 +5,11 @@
 > by Nikhil, which provides the v2/v3 pipeline in `scripts/ridge/` and the original Slurm jobs.
 > `compare/`, `bakeoff/` and `measure/` were added in this project: the method comparison,
 > the U-Net bake-off with its dev/test protocol, the learned piece verifier and the lab
-> measurement tool. `data/`, `results/` and the trained models are not included. The U-Net
-> weights are about 290 MB each, which is too large for a normal GitHub repository.
+> measurement tool. `data/` and `results/` are not included. The trained U-Net (about 290 MB)
+> and the verifier are attached to the
+> [models-v1 release](https://github.com/neal4146/nanowire-segmentation/releases/tag/models-v1).
+> Put them at `results/bakeoff/models/E2/final.pt` and
+> `results/bakeoff/devcv/verifier_E2_cv/verifier_learned.joblib`.
 > Set `--account` in `slurm/*.sbatch` to your own cluster account.
 
 Per-pixel wire masks and per-wire measurements (count, length, width,
