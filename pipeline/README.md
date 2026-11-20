@@ -193,6 +193,6 @@ venv/bin/python scripts/ridge/prep_handcorrect_frame.py  # -> results/handcorrec
 ## SLURM notes
 
 The job files target VT ARC Falcon: partition `t4_normal_q`, QOS
-`fal_t4_normal_short`, account `me_jiechen`. They request a GPU only because
+`fal_t4_normal_short`, account set in each `.sbatch` file. They request a GPU only because
 Falcon has no CPU-only partition; the GPU sits idle. On another cluster, edit
 the `#SBATCH` header lines.
