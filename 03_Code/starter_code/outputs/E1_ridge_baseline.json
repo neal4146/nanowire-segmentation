@@ -1,0 +1,145 @@
+{
+ "TiS3": {
+  "params": {
+   "sigmas": [
+    2,
+    3
+   ],
+   "polarity": "bright",
+   "low": 0.18,
+   "high": 0.45
+  },
+  "per_image": {
+   "TiS3_80000\u00d7_1 [both] (tuning image)": {
+    "completeness": 0.224,
+    "correctness": 0.155,
+    "wire_precision": 0.016,
+    "wire_recall": 0.069,
+    "wire_f1": 0.026,
+    "n_gt": 160,
+    "n_pred": 702
+   },
+   "TiS3_80000\u00d7_1 [bright] (tuning image)": {
+    "completeness": 0.723,
+    "correctness": 0.377,
+    "wire_precision": 0.128,
+    "wire_recall": 0.594,
+    "wire_f1": 0.21,
+    "n_gt": 160,
+    "n_pred": 745
+   },
+   "TiS3_80000\u00d7_1 [dark] (tuning image)": {
+    "completeness": 0.468,
+    "correctness": 0.198,
+    "wire_precision": 0.067,
+    "wire_recall": 0.45,
+    "wire_f1": 0.117,
+    "n_gt": 160,
+    "n_pred": 1071
+   },
+   "TiS3_80000\u00d7_2 [both]": {
+    "completeness": 0.115,
+    "correctness": 0.058,
+    "wire_precision": 0.011,
+    "wire_recall": 0.053,
+    "wire_f1": 0.018,
+    "n_gt": 133,
+    "n_pred": 666
+   },
+   "TiS3_80000\u00d7_2 [bright]": {
+    "completeness": 0.761,
+    "correctness": 0.227,
+    "wire_precision": 0.073,
+    "wire_recall": 0.579,
+    "wire_f1": 0.129,
+    "n_gt": 133,
+    "n_pred": 1057
+   },
+   "TiS3_80000\u00d7_2 [dark]": {
+    "completeness": 0.456,
+    "correctness": 0.13,
+    "wire_precision": 0.058,
+    "wire_recall": 0.451,
+    "wire_f1": 0.102,
+    "n_gt": 133,
+    "n_pred": 1040
+   }
+  }
+ },
+ "NbS3": {
+  "params": {
+   "sigmas": [
+    2,
+    4
+   ],
+   "polarity": "both",
+   "low": 0.1,
+   "high": 0.35
+  },
+  "per_image": {
+   "NbS3 1 [both]": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "aji_plus": 0.035,
+    "fg_iou": 0.142,
+    "n_gt": 175,
+    "n_pred": 844
+   },
+   "NbS3 2 [both]": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "aji_plus": 0.017,
+    "fg_iou": 0.066,
+    "n_gt": 77,
+    "n_pred": 1398
+   },
+   "NbS3 3 [both]": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "aji_plus": 0.035,
+    "fg_iou": 0.185,
+    "n_gt": 114,
+    "n_pred": 1014
+   },
+   "NbS3 4 [both] (tuning image)": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "aji_plus": 0.029,
+    "fg_iou": 0.114,
+    "n_gt": 85,
+    "n_pred": 698
+   },
+   "NbS3 5 [both]": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "aji_plus": 0.042,
+    "fg_iou": 0.237,
+    "n_gt": 75,
+    "n_pred": 873
+   },
+   "NbS3 6 [both]": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "aji_plus": 0.042,
+    "fg_iou": 0.194,
+    "n_gt": 140,
+    "n_pred": 1118
+   },
+   "NbS3 7 [both]": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "aji_plus": 0.023,
+    "fg_iou": 0.109,
+    "n_gt": 130,
+    "n_pred": 673
+   }
+  }
+ }
+}

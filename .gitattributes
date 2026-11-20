@@ -1,0 +1,2 @@
+# Keep frozen test labels byte-identical so SHA256SUMS stay valid
+03_Code/labelling/frozen_test_labels_2026-11-18/** -text

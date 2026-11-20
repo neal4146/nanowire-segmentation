@@ -1,0 +1,20 @@
+{
+  "case": "SF251211M_50000x_65",
+  "quarter": "bl",
+  "complete": true,
+  "mode": "complete: every wire drawn ('add wires'); 'not wire' = unsure, ignored",
+  "crop_origin_row_col": [
+    512,
+    0
+  ],
+  "crop_shape_row_col": [
+    512,
+    768
+  ],
+  "scale": "50k-equivalent training image (results/bakeoff/train)",
+  "coordinates": "row, col in the crop (0, 0 = top-left of the quarter)",
+  "counts": {
+    "not wire": 1,
+    "add wires": 161
+  }
+}

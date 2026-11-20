@@ -1,0 +1,15 @@
+{
+  "photo": "SF251213M_50000\u00d7_15",
+  "quarter": "br",
+  "crop_origin_row_col": [
+    512,
+    768
+  ],
+  "crop_shape_row_col": [
+    512,
+    768
+  ],
+  "nm_per_px": 5.396,
+  "coordinates": "row, col in the crop (0, 0 = top-left of the quarter)",
+  "n_wires": 156
+}

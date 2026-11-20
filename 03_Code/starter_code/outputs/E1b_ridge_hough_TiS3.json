@@ -1,0 +1,40 @@
+{
+ "tune=TiS3_80000\u00d7_1 -> test=TiS3_80000\u00d7_2": {
+  "params": {
+   "polarity": "bright",
+   "low": 0.25,
+   "high": 0.5,
+   "line_len": 25,
+   "gap": 8
+  },
+  "tune_wire_f1": 0.573,
+  "test": {
+   "completeness": 0.799,
+   "correctness": 0.433,
+   "wire_precision": 0.255,
+   "wire_recall": 0.805,
+   "wire_f1": 0.387,
+   "n_gt": 133,
+   "n_pred": 420
+  }
+ },
+ "tune=TiS3_80000\u00d7_2 -> test=TiS3_80000\u00d7_1": {
+  "params": {
+   "polarity": "bright",
+   "low": 0.25,
+   "high": 0.5,
+   "line_len": 25,
+   "gap": 4
+  },
+  "tune_wire_f1": 0.561,
+  "test": {
+   "completeness": 0.625,
+   "correctness": 0.784,
+   "wire_precision": 0.495,
+   "wire_recall": 0.669,
+   "wire_f1": 0.569,
+   "n_gt": 160,
+   "n_pred": 216
+  }
+ }
+}

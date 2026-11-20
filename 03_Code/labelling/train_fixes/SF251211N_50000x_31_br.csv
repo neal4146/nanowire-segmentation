@@ -1,0 +1,25 @@
+layer,wire_id,vertex,row,col
+add wires,0,0,101.22,135.46
+add wires,0,1,129.63,92.2
+add wires,1,0,-0.59,39.32
+add wires,1,1,55.34,39.76
+add wires,2,0,151.04,460.14
+add wires,2,1,130.94,427.81
+add wires,3,0,249.36,668.15
+add wires,3,1,276.89,627.51
+add wires,4,0,275.58,68.17
+add wires,4,1,234.07,114.49
+add wires,5,0,312.29,183.09
+add wires,5,1,334.57,159.93
+add wires,6,0,419.35,190.08
+add wires,6,1,509.37,138.52
+add wires,7,0,466.54,768.22
+add wires,7,1,479.65,760.35
+add wires,8,0,489.27,757.73
+add wires,8,1,501.07,769.09
+add wires,9,0,312.29,136.33
+add wires,9,1,338.51,111.43
+add wires,10,0,225.76,759.92
+add wires,10,1,237.56,752.92
+add wires,11,0,434.21,173.04
+add wires,11,1,442.95,188.77

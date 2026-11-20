@@ -1,0 +1,47 @@
+{
+ "NbS3 1": {
+  "n": 175,
+  "rect_iou_median": 0.773,
+  "frac_rect_iou_ge_0_8": 0.349
+ },
+ "NbS3 2": {
+  "n": 77,
+  "rect_iou_median": 0.89,
+  "frac_rect_iou_ge_0_8": 0.818
+ },
+ "NbS3 3": {
+  "n": 114,
+  "rect_iou_median": 0.802,
+  "frac_rect_iou_ge_0_8": 0.518
+ },
+ "NbS3 4": {
+  "n": 85,
+  "rect_iou_median": 0.787,
+  "frac_rect_iou_ge_0_8": 0.435
+ },
+ "NbS3 5": {
+  "n": 75,
+  "rect_iou_median": 0.854,
+  "frac_rect_iou_ge_0_8": 0.707
+ },
+ "NbS3 6": {
+  "n": 140,
+  "rect_iou_median": 0.803,
+  "frac_rect_iou_ge_0_8": 0.514
+ },
+ "NbS3 7": {
+  "n": 130,
+  "rect_iou_median": 0.782,
+  "frac_rect_iou_ge_0_8": 0.423
+ },
+ "TiS3_80000\u00d7_1": {
+  "n": 160,
+  "rect_iou_median": 0.886,
+  "frac_rect_iou_ge_0_8": 0.919
+ },
+ "TiS3_80000\u00d7_2": {
+  "n": 133,
+  "rect_iou_median": 0.887,
+  "frac_rect_iou_ge_0_8": 0.932
+ }
+}

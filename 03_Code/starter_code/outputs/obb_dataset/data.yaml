@@ -1,0 +1,7 @@
+path: C:/Users/Acer/Downloads/Materials_ThangPham/Materials_ThangPham/03_Code/starter_code/outputs/obb_dataset
+train: images/train
+val: images/val
+test: images/test
+names:
+  0: NbS3
+  1: TiS3

@@ -1,0 +1,18 @@
+{
+  "case": "SF251211N_50000x_27",
+  "quarter": "tl",
+  "crop_origin_row_col": [
+    0,
+    0
+  ],
+  "crop_shape_row_col": [
+    512,
+    768
+  ],
+  "scale": "50k-equivalent training image (results/bakeoff/train)",
+  "coordinates": "row, col in the crop (0, 0 = top-left of the quarter)",
+  "counts": {
+    "not wire": 0,
+    "add wires": 6
+  }
+}

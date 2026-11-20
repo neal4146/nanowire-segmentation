@@ -1,0 +1,74 @@
+{
+ "NbS3 1": {
+  "instances": 175,
+  "flagged_for_QC": 54,
+  "shape": [
+   1024,
+   1536
+  ]
+ },
+ "NbS3 2": {
+  "instances": 77,
+  "flagged_for_QC": 2,
+  "shape": [
+   1554,
+   2331
+  ]
+ },
+ "NbS3 3": {
+  "instances": 114,
+  "flagged_for_QC": 22,
+  "shape": [
+   1024,
+   1536
+  ]
+ },
+ "NbS3 4": {
+  "instances": 85,
+  "flagged_for_QC": 0,
+  "shape": [
+   1024,
+   1536
+  ]
+ },
+ "NbS3 5": {
+  "instances": 75,
+  "flagged_for_QC": 0,
+  "shape": [
+   1024,
+   1536
+  ]
+ },
+ "NbS3 6": {
+  "instances": 140,
+  "flagged_for_QC": 12,
+  "shape": [
+   1024,
+   1536
+  ]
+ },
+ "NbS3 7": {
+  "instances": 130,
+  "flagged_for_QC": 37,
+  "shape": [
+   1024,
+   1536
+  ]
+ },
+ "TiS3_80000\u00d7_1": {
+  "instances": 160,
+  "flagged_for_QC": 2,
+  "shape": [
+   1024,
+   1536
+  ]
+ },
+ "TiS3_80000\u00d7_2": {
+  "instances": 133,
+  "flagged_for_QC": 4,
+  "shape": [
+   1024,
+   1536
+  ]
+ }
+}
